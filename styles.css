@@ -1,0 +1,23 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /*background: url("earth.gif") center -130px no-repeat;
+  background-size: cover;
+  align-items: center; */
+
+}
+
+h1 {
+  padding: 15px;
+  text-align: center;
+}
+ul {
+  padding: 15px;
+  /* text-align: center; */
+  align-items: center;
+  
+}
+#upload {
+  justify-content: center;
+  font-style: italic;
+  
+}

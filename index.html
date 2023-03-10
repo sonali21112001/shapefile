@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ipcMain & ipcRenderer example</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="renderer.js"></script>
+
+  </head>
+  <body>
+    <h1>ipcMain & ipcRenderer example</h1>
+    
+    <div class="box">
+      <div class="box-button">
+        <button id="ping-good">Ping <span>GOOD</span></button>
+        <span class="space"></span>
+        <p id="ping-good-response">Click on button</p>
+      </div>
+      <div class="box-button">
+        <button id="ping-bad">Ping <span>BAD</span></button>
+        <span class="space"></span>
+        <p id="ping-bad-response">Click on button</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="clear"></div>
+
+    <span class="space"></span>
+    <span class="space"></span>
+    <span class="space"></span>
+
+    <p class="see-code">
+      See the code in
+      <br>
+      http://bit.ly/electron-ipc-example
+    </p>
+
+     <script>
+      require('./renderer.js')
+    </script> -->
+<!-- </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <h1>DIRECTORY</h1>
+  <body>
+    <header>
+    <button id="upload" class="btn btn-outline-secondary" >Upload button</button>
+
+    <!-- <textarea name="enter ur text" id="textarea" cols="15" rows=""></textarea>  -->
+    <ul id="list"> </ul>
+    <table id="mytable" class="table"></table>
+    </header>
+   <footer>
+    <button id="relaunch" class="btn btn-outline-info">Relaunch</button>
+  </footer>
+   
+  </body>
+  <script src="renderer.js"></script>
+</html>
